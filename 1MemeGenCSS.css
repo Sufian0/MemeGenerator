@@ -1,0 +1,59 @@
+.meme {
+    width: 500px;
+    justify-content: center;
+    position:relative;
+  }
+  
+.top_text{
+  position:absolute;
+  top:10px;
+  left:30px;
+  color:#ffffff;
+  z-index:3
+  }
+  
+.bottom_text{
+  position:absolute;
+  bottom:20px;
+  left:30px;
+  color:#ffffff;
+  z-index:3
+  }
+  
+.meme img{
+  max-width:100%;
+  z-index:2
+  }
+  
+.button {
+    float: right;
+  }
+    
+.border_lower {
+    border-bottom: 1px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+  }
+    
+.form {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+    
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+    
+.location {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }

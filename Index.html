@@ -1,0 +1,29 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>test</title>
+        <link rel="stylesheet" href="1MemeGenCSS.css">
+    </head>
+    <body>
+        <h1>This is a meme generator!</h1>
+        <h2>Enter top text, then bottom text, then image URL</h2>
+        <form action="#" class="form">
+          <label for="top-text">Text Upper:</label>
+          <input type="text" name="top-text" id="top-text" /><br />
+          <label for="bottom-text">Text Lower:</label>
+          <input type="text" name="bottom-text" id="bottom-text" /><br />
+          <label for="picturl">Picture:</label>
+          <input type="url" name="picurl" placeholder="Image Url" id="picurl" /><br />
+          <!-- better naming convention. instead of picurl, use pic-url. this is
+        used for identifiers. javascript variables use thihngs like picUrl.  -->
+          <input type="submit" value="Add Meme" /><br />
+        </form>
+        <hr class="border_lower" />
+        <div id="meme-location"></div>
+        <hr class="border_lower" />
+    </body>
+    <script src="1MemeGenJS.JS"></script>
+    </html>
